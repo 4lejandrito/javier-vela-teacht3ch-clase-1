@@ -1,0 +1,16 @@
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 156, 222);
+}
+footer a:hover {
+  color: rgb(73, 115, 178);
+}
+
+footer {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

@@ -1,0 +1,49 @@
+#vd {
+  display: none;
+}
+
+#veloriadas {
+  height: 23px;
+}
+
+#logonav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+header {
+  position: fixed;
+  margin: 0px;
+  background: white;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 156, 222);
+}
+
+header a:hover {
+  color: rgb(73, 115, 178);
+}
+
+@media (min-width: 600px) {
+  #vd {
+    display: inline;
+    height: 25px;
+  }
+
+  #veloriadas {
+    height: 25px;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+  }  
+}
