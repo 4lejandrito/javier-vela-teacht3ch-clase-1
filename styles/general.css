@@ -5,6 +5,7 @@
 }
 body {
   margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -27,10 +28,6 @@ p {
 
 ul {
   font-size: 1.15em;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 html {
